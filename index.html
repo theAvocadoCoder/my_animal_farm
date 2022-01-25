@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js" defer></script>
+  <script src="./scripts/index.js" defer></script>
+  <title>My Animal Farm</title>
+</head>
+<body>
+  <div id="primary-container" class="flex centered">
+    <div id="secondary-container" class="flex col full-size">
+      <div id="pens-container" class="flex centered">
+        <div id="pens" class="grid-3-3">
+          <div id="pen-1" class="pen"></div>
+          <div id="pen-2" class="pen"></div>
+          <div id="pen-3" class="pen"></div>
+          <div id="pen-4" class="pen"></div>
+          <div id="pen-5" class="pen"></div>
+          <div id="pen-6" class="pen"></div>
+          <div id="pen-7" class="pen"></div>
+          <div id="pen-8" class="pen"></div>
+          <div id="pen-9" class="pen"></div>
+        </div>
+      </div>
+      <div id="options" class="flex centered w-full">
+        <form class="flex col centered w-full">
+          <label id="animal-label" for="animal">Animal:
+            <div id="pig-div" class="animal-select-box">
+              <!-- Pigs -->
+              Pig:
+              <br>
+              <label for="animal">
+                <input id="pig-1" type="radio" name="animal">
+                  <span class="iconify" data-icon="twemoji:pig-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="pig-2" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione:pig-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="pig-3" type="radio" name="animal">
+                  <span class="iconify" data-icon="fxemoji:pig" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="pig-4" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto-v1:pig-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="pig-5" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto:pig-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+            </div>
+            <div id="cat-div" class="animal-select-box">
+              <!-- Cats -->
+              Cat:
+              <br>
+              <label for="animal">
+                <input id="cat-1" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione:cat-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cat-2" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione-v1:cat-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cat-3" type="radio" name="animal">
+                  <span class="iconify" data-icon="twemoji:cat-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cat-4" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto:cat-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cat-5" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto-v1:cat-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cat-6" type="radio" name="animal">
+                  <span class="iconify" data-icon="openmoji:cat-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+            </div>
+            <div id="dog-div" class="animal-select-box">
+              <!-- Dogs -->
+              Dog:
+              <br>
+              <label for="animal">
+                <input id="dog-1" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione-v1:dog-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="dog-2" type="radio" name="animal">
+                  <span class="iconify" data-icon="openmoji:dog-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="dog-3" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione:dog-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="dog-4" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto:dog-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="dog-5" type="radio" name="animal">
+                  <span class="iconify" data-icon="twemoji:dog-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+            </div>
+            <div id="cow-div" class="animal-select-box">
+              <!-- Cows -->
+              Cow:
+              <br>
+              <label for="animal">
+                <input id="cow-1" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione:cow-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cow-2" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto-v1:cow-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cow-3" type="radio" name="animal">
+                  <span class="iconify" data-icon="openmoji:cow-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cow-4" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione-v1:cow-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cow-5" type="radio" name="animal">
+                  <span class="iconify" data-icon="twemoji:cow-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cow-6" type="radio" name="animal">
+                  <span class="iconify" data-icon="fxemoji:cowface" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="cow-7" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto:cow-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+            </div>
+            <div id="horse-div" class="animal-select-box">
+              <!-- Horses -->
+              Horse:
+              <br>
+              <label for="animal">
+                <input id="horse-1" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione-v1:horse-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="horse-2" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto:horse-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="horse-3" type="radio" name="animal">
+                  <span class="iconify" data-icon="openmoji:horse-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="horse-4" type="radio" name="animal">
+                  <span class="iconify" data-icon="noto-v1:horse-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="horse-5" type="radio" name="animal">
+                  <span class="iconify" data-icon="twemoji:horse-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="horse-6" type="radio" name="animal">
+                  <span class="iconify" data-icon="emojione:horse-face" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="horse-7" type="radio" name="animal">
+                  <span class="iconify" data-icon="fxemoji:horseface" style="font-size: 1.5rem;"></span>
+                </input>
+              </label>
+            </div>
+            <div id="sheep-div" class="animal-select-box">
+              <!-- Sheep -->
+              Sheep:
+              <br>
+              <label for="animal">
+                <input id="sheep-1" type="radio" name="animal">
+                  <span class="iconify" data-icon="whh:sheep" style="color: black; font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="sheep-2" type="radio" name="animal">
+                  <span class="iconify" data-icon="whh:sheep" style="color: slategray; font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="sheep-3" type="radio" name="animal">
+                  <span class="iconify" data-icon="whh:sheep" style="color: darkgoldenrod; font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="sheep-4" type="radio" name="animal">
+                  <span class="iconify" data-icon="whh:sheep" style="color: darksalmon; font-size: 1.5rem;"></span>
+                </input>
+              </label>
+              <label for="animal">
+                <input id="sheep-5" type="radio" name="animal">
+                  <span class="iconify" data-icon="whh:sheep" style="color: maroon; font-size: 1.5rem;"></span>
+                </input>
+              </label>
+            </div>
+            <div id="chicken-div" class="animal-select-box">
+            <!-- Chickens -->
+            Chickens:
+            <br>
+            <label for="animal">
+              <input id="chicken-1" type="radio" name="animal">
+                <span class="iconify" data-icon="emojione-v1:chicken" style="font-size: 1.5rem;"></span>
+              </input>
+            </label>
+            <label for="animal">
+              <input id="chicken-2" type="radio" name="animal">
+                <span class="iconify" data-icon="twemoji:chicken" style="font-size: 1.5rem;"></span>
+              </input>
+            </label>
+            <label for="animal">
+              <input id="chicken-3" type="radio" name="animal">
+                <span class="iconify" data-icon="fxemoji:chicken" style="font-size: 1.5rem;"></span>
+              </input>
+            </label>
+            <label for="animal">
+              <input id="chicken-4" type="radio" name="animal">
+                <span class="iconify" data-icon="noto:chicken" style="font-size: 1.5rem;"></span>
+              </input>
+            </label>
+            <label for="animal">
+              <input id="chicken-5" type="radio" name="animal">
+                <span class="iconify" data-icon="openmoji:chicken" style="font-size: 1.5rem;"></span>
+              </input>
+            </label>
+            </div>
+          </label>
+          <label for="animal-name">
+            Name:
+            <input type="text" name="animal-name">
+          </label>
+          <input id="create-btn" type="button" value="Create!" />
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
